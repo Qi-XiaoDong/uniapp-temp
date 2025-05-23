@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+			
+		},
+		{
+			"path" : "pages/loginView/loginView",
+			"style" : 
+			{
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/registerView/registerView",
+			"style" : 
+			{
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path" : "pages/personalCenter/personalCenter",
+			"style" :
+			{
+				"navigationBarTitleText" : "个人中心"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#555555",
+		"selectedColor": "#2E8EFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "/static/image/shouye.png",
+			"selectedIconPath": "/static/image/shouye-active.png"
+		}, {
+			"pagePath": "pages/personalCenter/personalCenter",
+			"text": "我的",
+			"iconPath": "/static/image/wode.png",
+			"selectedIconPath": "/static/image/wode-active.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh":false
+	},
+	"uniIdRouter": {}
+}

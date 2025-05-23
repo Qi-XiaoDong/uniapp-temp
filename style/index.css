@@ -1,0 +1,16 @@
+@import './iconfont/iconfont.css';
+
+.SourceHanSansSC-Bold {
+  font-family: SourceHanSansSC-Bold !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.SourceHanSansSC-Normal {
+  font-family: SourceHanSansSC-Normal !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "uniapp-template",
+  "description": "uniApp项目通用模板",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/types": "^3.4.15",
+    "crypto-js": "^4.1.1"
+  }
+}
