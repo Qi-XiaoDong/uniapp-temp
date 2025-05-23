@@ -6,7 +6,6 @@
 				"navigationBarTitleText": "首页",
 				"enablePullDownRefresh": true
 			}
-			
 		},
 		{
 			"path" : "pages/loginView/loginView",

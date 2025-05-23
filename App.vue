@@ -15,15 +15,11 @@
 					global: true,
 					family: 'SourceHanSansSC-Bold',
 					source: this.convertLocalFileSystemURL("/static/font/SourceHanSansSC-Bold.ttf"),
-					success: () => console.log('Bold字体全局加载成功'),
-					fail: (err) => console.error('Bold字体加载失败', err),
 				});
 				uni.loadFontFace({
 					global: true,
 					family: 'SourceHanSansSC-Normal',
 					source: this.convertLocalFileSystemURL("/static/font/SourceHanSansSC-Normal.ttf"),
-					success: () => console.log('Normal字体全局加载成功'),
-					fail: (err) => console.error('Normal字体加载失败', err),
 				});
 			},
 		},
@@ -48,6 +44,6 @@
 	// /*每个页面公共css */
 	@import "./style/index.css";
 	page{
-		font-family: SourceHanSansSC-Normal;
+		// font-family: SourceHanSansSC-Normal;
 	}
-</style>1
+</style>
