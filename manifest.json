@@ -78,7 +78,7 @@
         "title" : "郑州市家装行业企业报备掌上助手",
         "router" : {
             "mode" : "history",
-            "base" : "/fwaqzhb/"
+            "base" : ""
         },
         "devServer" : {
             "https" : false
